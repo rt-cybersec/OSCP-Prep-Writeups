@@ -8,18 +8,20 @@ Welcome to my repository of walkthroughs and writeups for various cybersecurity 
 
 The repository contains walkthroughs for the following machines, hosted on VulnHub and OffSec Proving Grounds:
 
-| Machine Name                            | Platform        | Difficulty | Primary Focus / Techniques                                                |
-| --------------------------------------- | --------------- | ---------- | ------------------------------------------------------------------------- |
-| [Amaterasu](Amaterasu.md)               | Proving Grounds | Easy       | REST API Enumeration, SUID / Cronjob Tar Wildcard Injection               |
-| [DerpNStink](DerpNStink.md)             | VulnHub         | Medium     | WordPress Slideshow Plugin RCE, PCAP Sniffing, Sudo Priv Esc              |
-| [Gaara](Gaara.md)                       | Proving Grounds | Easy       | Directory Fuzzing, Base58 Decryption, SUID GDB Exploitation               |
-| [GoldenEye v1](GoldenEye%20v1.md)       | VulnHub         | Medium     | POP3/SMTP Credential Enumeration, Moodle Spellchecker RCE, Kernel Exploit |
-| [LazySysAdmin](LazySysAdmin.md)         | VulnHub         | Easy       | SMB Guest Access, WordPress Config Leak, SSH Password Spraying            |
-| [Lord of the Root](Lord%20of%20the%20Root.md) | VulnHub         | Medium     | Port Knocking, SQL Injection (Sqlmap), SSH Hydra Spray, Kernel Exploit    |
-| [SickOS](SickOS.md)                     | VulnHub         | Medium     | Squid Proxy Routing, WolfCMS Shell Upload, Writable Python Cronjob        |
-| [The Ether](The%20Ether.md)             | VulnHub         | Medium     | LFI Auth Log Poisoning, Sudo Script Command Injection, Steganography      |
-| [Troll](Troll.md)                       | VulnHub         | Easy       | FTP Anonymous Login, PCAP Extraction, Password Spraying, Kernel Exploit   |
-| [Wintermute](Wintermute.md)             | VulnHub         | Hard       | Double Subnet Pivoting, SMTP Shellshock, Struts2 RCE, Socat Redirects     |
+| Machine Name                                  | Platform        | Difficulty | Primary Focus / Techniques                                                                                                                 |
+| --------------------------------------------- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Amaterasu](Amaterasu.md)                     | Proving Grounds | Easy       | REST API Enumeration, SUID / Cronjob Tar Wildcard Injection                                                                                |
+| [DC-9](DC-9.md)                               | Proving Grounds | Medium     | SQL Injection (UNION-based), Local File Inclusion (LFI), Port Knocking, Hydra SSH Brute Forcing, Priv Esc via Custom SUID/Writable Scripts |
+| [DerpNStink](DerpNStink.md)                   | VulnHub         | Medium     | WordPress Slideshow Plugin RCE, PCAP Sniffing, Sudo Priv Esc                                                                               |
+| [Gaara](Gaara.md)                             | Proving Grounds | Easy       | Directory Fuzzing, Base58 Decryption, SUID GDB Exploitation                                                                                |
+| [GoldenEye v1](GoldenEye%20v1.md)             | VulnHub         | Medium     | POP3/SMTP Credential Enumeration, Moodle Spellchecker RCE, Kernel Exploit                                                                  |
+| [LazySysAdmin](LazySysAdmin.md)               | VulnHub         | Easy       | SMB Guest Access, WordPress Config Leak, SSH Password Spraying                                                                             |
+| [Lord of the Root](Lord%20of%20the%20Root.md) | VulnHub         | Medium     | Port Knocking, SQL Injection (Sqlmap), SSH Hydra Spray, Kernel Exploit                                                                     |
+| [SickOS](SickOS.md)                           | VulnHub         | Medium     | Squid Proxy Routing, WolfCMS Shell Upload, Writable Python Cronjob                                                                         |
+| [Stapler](Stapler.md)                         | VulnHub         | Medium     | FTP Anonymous Login, PCAP Analysis, Hydra SSH Brute Forcing, Writable Cronjob Privilege Escalation                                         |
+| [The Ether](The%20Ether.md)                   | VulnHub         | Medium     | LFI Auth Log Poisoning, Sudo Script Command Injection, Steganography                                                                       |
+| [Troll](Troll.md)                             | VulnHub         | Easy       | FTP Anonymous Login, PCAP Extraction, Password Spraying, Kernel Exploit                                                                    |
+| [Wintermute](Wintermute.md)                   | VulnHub         | Hard       | Double Subnet Pivoting, SMTP Shellshock, Struts2 RCE, Socat Redirects                                                                      |
 
 ---
 
