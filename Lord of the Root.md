@@ -1,19 +1,13 @@
 # Lord of the Root: Walkthrough
 
 ## Overview
-**Machine Name**: Lord of the Root
-**Platform**: VulnHub
-**Difficulty**: Medium
-**OS**: Linux (Ubuntu)
+**Machine Name**: Lord of the Root<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Medium<br>
+**OS**: Linux (Ubuntu)<br>
 **Focus**: Port Knocking, SQL Injection, SSH Password Spraying, Kernel Exploit Privilege Escalation
 
 ## Enumeration
-### Network Discovery
-An ARP sweep located the target machine at IP address `192.168.29.119`.
-```bash
-arp-scan -l -I eth1
-```
-![](screenshots/Pasted%20image%2020260419124056.png)
 
 ### Port Scanning
 A full TCP port scan was performed:

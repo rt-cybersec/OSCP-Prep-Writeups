@@ -1,16 +1,13 @@
 # DC-9: Walkthrough
 
 ## Overview
-**Machine Name**: DC-9
-**Platform**: Proving Grounds
-**Difficulty**: Medium
-**OS**: Linux (Debian 9)
+**Machine Name**: DC-9<br>
+**Platform**: Proving Grounds<br>
+**Difficulty**: Medium<br>
+**OS**: Linux (Debian 9)<br>
 **Focus**: SQL Injection (UNION-based), Local File Inclusion (LFI), Port Knocking, Hydra SSH Brute Forcing, Priv Esc via Custom SUID/Writable Scripts
 
 ## Enumeration
-### Network Discovery
-An Nmap sweep was performed to locate the target machine IP address: `192.168.62.209`.
-![](screenshots/Pasted%20image%2020260615181458.png)
 
 ### Port Scanning
 A full TCP port scan was performed:

@@ -1,16 +1,13 @@
 # The Ether: Walkthrough
 
 ## Overview
-**Machine Name**: The Ether
-**Platform**: VulnHub
-**Difficulty**: Medium
-**OS**: Linux (Ubuntu)
+**Machine Name**: The Ether<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Medium<br>
+**OS**: Linux (Ubuntu)<br>
 **Focus**: LFI Log Poisoning, SSH Payload Execution, Sudo Script Command Injection, Steganographic Flag Extraction
 
 ## Enumeration
-### Network Discovery
-An ARP sweep discovered the target machine IP address: `192.168.29.40`.
-![](screenshots/Pasted%20image%2020260426203349.png)
 
 ### Port Scanning
 A port scan was launched to discover open ports:

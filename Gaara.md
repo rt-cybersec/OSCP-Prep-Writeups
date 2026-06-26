@@ -1,16 +1,13 @@
 # Gaara: Walkthrough
 
 ## Overview
-**Machine Name**: Gaara
-**Platform**: Proving Grounds
-**Difficulty**: Easy
-**OS**: Linux (Debian 10)
+**Machine Name**: Gaara<br>
+**Platform**: Proving Grounds<br>
+**Difficulty**: Easy<br>
+**OS**: Linux (Debian 10)<br>
 **Focus**: Directory Fuzzing, Base58 Decryption, SUID Binary Exploitation (GDB)
 
 ## Enumeration
-### Network Discovery
-The target machine was located on the local subnet at IP address `192.168.61.142`.
-![](screenshots/Pasted%20image%2020260606190034.png)
 
 ### Port Scanning
 An Nmap service and version scan was run to identify open ports:

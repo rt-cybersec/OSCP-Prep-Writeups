@@ -1,16 +1,13 @@
 # DerpNStink: Walkthrough
 
 ## Overview
-**Machine Name**: DerpNStink
-**Platform**: VulnHub
-**Difficulty**: Medium
-**OS**: Linux (Ubuntu)
+**Machine Name**: DerpNStink<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Medium<br>
+**OS**: Linux (Ubuntu)<br>
 **Focus**: WordPress Plugin Exploitation, DB Cracking, FTP Credential Sniffing, PCAP Analysis, Sudo Write Escalation
 
 ## Enumeration
-### Network Discovery
-An ARP scan discovered the target machine IP address: `192.168.29.70`.
-![](screenshots/Pasted%20image%2020260505193239.png)
 
 ### Port Scanning
 A full TCP port scan was performed:

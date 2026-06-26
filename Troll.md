@@ -1,16 +1,13 @@
 # Troll: Walkthrough
 
 ## Overview
-**Machine Name**: Troll
-**Platform**: VulnHub
-**Difficulty**: Easy
-**OS**: Linux (Ubuntu)
+**Machine Name**: Troll<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Easy<br>
+**OS**: Linux (Ubuntu)<br>
 **Focus**: FTP PCAP Extraction, Username/Password Spraying, SUID Privilege Escalation
 
 ## Enumeration
-### Network Discovery
-An ARP scan located the target machine on the local subnet at IP address `192.168.29.80`.
-![](screenshots/Pasted%20image%2020260419120425.png)
 
 ### Port Scanning
 An Nmap service scan discovered open ports:

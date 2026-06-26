@@ -1,18 +1,13 @@
 # GoldenEye v1: Walkthrough
 
 ## Overview
-**Machine Name**: GoldenEye v1
-**Platform**: VulnHub
-**Difficulty**: Medium
-**OS**: Linux (Ubuntu 14.04)
+**Machine Name**: GoldenEye v1<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Medium<br>
+**OS**: Linux (Ubuntu 14.04)<br>
 **Focus**: SMTP/POP3 Credential Enumeration, Moodle CMS Exploitation, Local Privilege Escalation (Overlayfs Exploit)
 
 ## Enumeration
-### Network Discovery
-An ARP sweep located the target machine at IP address `192.168.29.250`.
-```bash
-arp-scan -l -I eth1
-```
 
 ### Port Scanning
 Nmap service detection was executed on the target host:

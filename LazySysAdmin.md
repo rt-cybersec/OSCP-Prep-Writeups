@@ -1,19 +1,13 @@
 # LazySysAdmin: Walkthrough
 
 ## Overview
-**Machine Name**: LazySysAdmin
-**Platform**: VulnHub
-**Difficulty**: Easy
-**OS**: Linux (Ubuntu 14.04)
+**Machine Name**: LazySysAdmin<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Easy<br>
+**OS**: Linux (Ubuntu 14.04)<br>
 **Focus**: SMB Share Enumeration, Wordpress Config Credential Harvesting, Sudo Privilege Escalation
 
 ## Enumeration
-### Network Discovery
-An ARP scan identified the target machine IP address: `192.168.29.110`.
-```bash
-arp-scan -l -I eth1
-```
-![](screenshots/Pasted%20image%2020260425181415.png)
 
 ### Port Scanning
 A full TCP port scan was executed:

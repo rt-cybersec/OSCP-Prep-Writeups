@@ -1,16 +1,13 @@
 # Stapler: Walkthrough
 
 ## Overview
-**Machine Name**: Stapler
-**Platform**: Proving Grounds
-**Difficulty**: Medium
-**OS**: Linux (Ubuntu)
+**Machine Name**: Stapler<br>
+**Platform**: Proving Grounds<br>
+**Difficulty**: Medium<br>
+**OS**: Linux (Ubuntu)<br>
 **Focus**: FTP Anonymous Login, PCAP Analysis, Hydra SSH Brute Forcing, Writable Cronjob Privilege Escalation
 
 ## Enumeration
-### Network Discovery
-An Nmap sweep was performed to locate the target machine IP address: `192.168.51.148`.
-![](screenshots/Pasted%20image%2020260617191728.png)
 
 ### Port Scanning
 A full TCP port scan was executed:

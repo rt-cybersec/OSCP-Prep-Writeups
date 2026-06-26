@@ -1,10 +1,10 @@
 # Wintermute: Walkthrough
 
 ## Overview
-**Machine Name**: Wintermute
-**Platform**: VulnHub
-**Difficulty**: Hard
-**OS**: Linux
+**Machine Name**: Wintermute<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Hard<br>
+**OS**: Linux<br>
 **Focus**: Double Machine Pivoting, Shellshock SMTP, Struts2 RCE, Socat Traffic Redirection, Static Compilation Kernel Exploit
 
 ---
@@ -12,9 +12,6 @@
 # STRAYLIGHT
 
 ## Enumeration (Straylight)
-### Network Discovery
-An Nmap ping sweep located the Straylight host IP: `192.168.111.130`.
-![](screenshots/Pasted%20image%2020260603190810.png)
 
 ### Port Scanning
 A full TCP port scan was executed:

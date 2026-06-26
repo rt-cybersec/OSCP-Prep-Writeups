@@ -1,19 +1,13 @@
 # SickOS: Walkthrough
 
 ## Overview
-**Machine Name**: SickOS 1.1
-**Platform**: VulnHub
-**Difficulty**: Medium
-**OS**: Linux (Ubuntu)
+**Machine Name**: SickOS 1.1<br>
+**Platform**: VulnHub<br>
+**Difficulty**: Medium<br>
+**OS**: Linux (Ubuntu)<br>
 **Focus**: Squid Proxy Enumeration, WolfCMS Exploit, Python Cronjob Hijack
 
 ## Enumeration
-### Network Discovery
-An ARP sweep located the target machine at IP address `192.168.29.167`.
-```bash
-arp-scan -l -I eth0
-```
-![](screenshots/Pasted%20image%2020260424205404.png)
 
 ### Port Scanning
 A full TCP port scan was performed:

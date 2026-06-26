@@ -1,16 +1,13 @@
 # Amaterasu: Walkthrough
 
 ## Overview
-**Machine Name**: Amaterasu
-**Platform**: Proving Grounds
-**Difficulty**: Easy
-**OS**: Linux (Fedora)
+**Machine Name**: Amaterasu<br>
+**Platform**: Proving Grounds<br>
+**Difficulty**: Easy<br>
+**OS**: Linux (Fedora)<br>
 **Focus**: REST API Enumeration, File Upload Restriction Bypass, SUID/Cronjob Wildcard Privilege Escalation
 
 ## Enumeration
-### Network Discovery
-An Nmap ping sweep was performed to discover active hosts, locating the target machine at IP address `192.168.65.249`.
-![](screenshots/Pasted%20image%2020260608170909.png)
 
 ### Port Scanning
 A full TCP port scan was conducted to identify open services:
